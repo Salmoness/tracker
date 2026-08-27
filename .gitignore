@@ -23,5 +23,8 @@ dist-ssr
 *.sln
 *.sw?
 
-# SMH
-.env  
+# Environment configuration files
+.env
+.env.*
+!.env.example
+
